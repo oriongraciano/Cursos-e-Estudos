@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="Html-5.ico" type="image/x-icon">
+    <title>Pseudo Classes, Links</title>
+    <style>
+        a {
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgb(182, 118, 241);
+        }
+
+        .especial::after {
+            content: '<=';
+        }
+
+        .especial::before {
+            content: '=>';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links com Pseudo Classes</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio do GitHub</li></a>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blank"> Canal no YouTube Gustavo
+                Guanabara</a></li>
+        <li><a href="Https://www.cursoemvideo.com" class="especial" target="_blank">Curso em Video</a></li>
+    </ul>
+
+</body>
+
+</html>

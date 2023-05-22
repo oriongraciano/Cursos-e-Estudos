@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: linear-gradient(to right, #FFB13D,#F5A122,#0060A8);
+    font-size: 20px;
+    text-align: justify;
+}
+
+h1 {
+    color: rgb(12, 90, 1);
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(25, 0, 250);
+
+}
+
+p {
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.H1Pg2 {
+    color: rgb(151, 5, 5);
+
+}
+
+.H2Pg2 {
+    color: rgb(216, 0, 130);
+
+}
+
+.h1pg3 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+
+}  

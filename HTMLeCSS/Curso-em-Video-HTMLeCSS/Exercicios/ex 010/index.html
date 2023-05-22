@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shorcut ico" href="favicon.png">
+     <style>
+          p {
+            color: rgb(0, 122, 10);
+          }
+          h1 {
+            color: crimson;
+          }
+     </style>
+     <title>Trabalhando com Links</title>
+  </head>
+  <body>
+      <h1>Usando Links externos:</h1>
+      <h3>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/">repositorio publico no Github</a></h3>
+      <p>Acima podemos ver um exemplo onde transformamos a URL em um link clicavel que ira direcionar o usuario a uma pagina externa, cujo destino foi referenciado dentro de HREF="URL" que se trata de um dos atributos da tag A, porem ao ser direcionado acontece a sobreposiçao para pagina de destino em cima da de origem, para que isso nao aconteça veja o exemplo abaixo.</p>
+      <br/>
+    
+      <h3>Você tambem pode acessar meu <a href="https://youtube.com/cursoemvideo/" target="blank" rel="external">canal gratuito no Youtube</a></h3>
+      <p>Já aqui neste exemplo alem de criar o link externo, iremos usar um dos atributos da tag A, TARGET="_BLANK" que e responsavel por direcionar a abertura desse link em uma janela/aba nova sem sobrepor o seu site e tambem o atributo REL="EXTERNAL" que ira exemplificar a natureza do destino, que se trata de um site externo ao de origem.</p>
+      <p>Obs: Em links externos se faz necessario inserir a URL inteira, pois se trata de um site externo onde iremos acessar.</p>
+
+      <h1>Usando Links Internos:</h1>
+      <h3>Esta é a primeira página do meu site. Se voce quiser, pode acessar tambem a minha <a href="pag002.html" rel="next">Segunda Pagina</a></h3>
+      <p>Acima vemos um exemplo de link interno, responsavel pelo direcionamento para as paginas de um site, como na mairia dos sites tem varias paginas para o usuario navegar, se faz necessario o uso, por isso a os links internos são muito importantes.
+      Obs:Para utilização de um link interno basta inserir a ao atributo da tag A, HREF="PAGINA 2" por exemplo, e referenciar a natureza de destino no atributo REL="NEXT".</p>
+      <p>Obs2: Em links internos nao precisa inserir a URL inteira, pois não se trata de um site externo e sim de uma pagina seguinte.</p>
+      <br/>
+      <h1>Links para Download</h1>
+      <p>Pensando em praticidade, você tambem pode baixar meu curriculo para me conhecer melhor profissionalmente:</p>
+      <ul>
+          <li><a href="curriculo/meucurriculo.pdf" download="meucurriculo.pdf" type="application/pdf">Baixar o meu Curriculo em PDF</a></li>
+          
+          <li><a href="curriculo/meucurriculo.zip" download="meucurriculo.zip" type="application/zip">Curriculo compactadado em ZIP</a></li>
+      </ul>  
+      <br/>
+
+      <h3>Voce tambem pode acessar a nossa > <a href="noticias/pag003.html" rel="next">página de notícias</a> </h3>  
+      <!--Acima vemos a Continuaçao de links internos-->  
+      
+      <br/>
+    </body>
+</html>
